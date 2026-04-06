@@ -1,0 +1,32 @@
+# Audio files
+*.mp3
+*.wav
+*.m4a
+*.mp4
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dataset folders
+MUSDB18/
+demo/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Model outputs
+MODEL_*/
+*.h5
+*.pth
+*.ckpt
